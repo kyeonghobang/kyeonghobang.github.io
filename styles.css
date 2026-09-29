@@ -48,7 +48,7 @@
     .notes-list {margin: 0;padding-left: 1.5rem;}
     .note-description {margin: 0;}
     .note-file {margin: 0.5rem 0 0;}
-    .notes-list li + li {margin-top: 2rem;}
+
     @media (max-width:680px) {
       header { min-height:88px; padding:22px 0; gap:20px; flex-wrap:wrap; }
       .brand { font-size:14px; gap:10px; }
@@ -97,3 +97,11 @@
       -webkit-mask-image:linear-gradient(to bottom, #000 35%, transparent 100%);
       mask-image:linear-gradient(to bottom, #000 35%, transparent 100%);
     }
+
+.notes-list > li {
+  padding-bottom: 2rem;
+}
+
+.notes-list > li:last-child {
+  padding-bottom: 0;
+}
