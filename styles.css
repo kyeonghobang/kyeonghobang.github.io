@@ -45,7 +45,9 @@
     footer { border-top:1px solid var(--line); padding:26px 0 32px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:14px; color:var(--muted); }
     footer p { margin:0; }
     ::selection { background:#dce3ff; color:#152030; }
-    
+    .notes-list {margin: 0;padding-left: 1.5rem;}
+    .note-description {margin: 0;}
+    .note-file {margin: 0.5rem 0 0;}
     @media (max-width:680px) {
       header { min-height:88px; padding:22px 0; gap:20px; flex-wrap:wrap; }
       .brand { font-size:14px; gap:10px; }
