@@ -117,18 +117,24 @@
 
 /* Introductory text */
 .bio {
-  max-width: 900px;
+  max-width: none;
   margin-top: 0;
 }
 
 .bio-line {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 0 0 0.3rem 0;
+  font-size: 18px;
+  line-height: 1.45;
+  margin: 0 0 6px 0;
   white-space: nowrap;
 }
 
 .bio .email {
-  margin-top: 1.2rem;
-  font-size: 1.1rem;
+  margin-top: 18px;
+  font-size: 17px;
+}
+
+@media (max-width: 900px) {
+  .bio-line {
+    white-space: normal;
+  }
 }
