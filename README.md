@@ -6,7 +6,8 @@ A responsive academic website for Kyeongho Bang, a PhD student in mathematics at
 
 - `index.html`: About (the homepage), biography, education, and contact email.
 - `research.html`: Research interests and publications/preprints.
-- `teaching.html`: Teaching assistantships from Fall 2024 through Fall 2026.
+- `CV.html`: CV for my academic activities.
+- `miscellaneous.html`: Repository for activities tangential to my research.
 - `styles.css`: Shared styling for all pages.
 
 ## Publish on GitHub Pages
