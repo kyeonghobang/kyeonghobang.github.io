@@ -9,7 +9,6 @@
     .page { max-width:1200px; margin:auto; padding:0 clamp(24px,6vw,88px); }
     header { min-height:112px; display:flex; align-items:center; justify-content:space-between; gap:24px; border-bottom:1px solid var(--line); }
     .brand { display:flex; align-items:center; gap:14px; font-size:16px; font-weight:700; text-decoration:none; }
-    .monogram { display:grid; place-items:center; width:40px; height:40px; border-radius:50%; background:var(--ink); color:white; font-size:14px; letter-spacing:-.04em; flex-shrink:0; }
     nav { display:flex; flex-wrap:wrap; gap:28px; font-size:14px; }
     nav a { text-decoration:none; }
     nav a:hover { color:var(--blue); text-decoration:underline; }
@@ -60,7 +59,6 @@
       .about, .section { grid-template-columns:1fr; gap:24px; padding:32px 0 38px; }
       .about p { font-size:18px; }
     }
-    @media (max-width:360px) { .brand-label { display:none; } }
     @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button { transition:none; } }
     .page { min-height:100vh; display:flex; flex-direction:column; }
     main { flex:1; min-width:0; }
@@ -109,8 +107,8 @@
 }
 
 .intro h1 {
-  font-size: clamp(5.5rem, 9vw, 8.5rem);
-  line-height: 0.95;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.1;
   letter-spacing: -0.045em;
   margin: 0;
 }
